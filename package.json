@@ -17,5 +17,6 @@
   "devDependencies": {
     "webpack": "^5.11.0",
     "webpack-cli": "^4.2.0"
-  }
+  },
+  "files": ["dist/filter-map.js"]
 }
