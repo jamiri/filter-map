@@ -15,7 +15,7 @@ console.log(res) // [8, 64]
 
 ## Api
 
-Following functions are added to array prototype
+Upon requireing/importing the module Following functions are added to array prototype
 
 
 **filterMap(filterFn, mapFn)**  
