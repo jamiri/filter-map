@@ -13,10 +13,24 @@ const res = [1, 2, 3, 4, 5].filterMap(it => it % 2 === 0, it => it ** 3) // O(n)
 console.log(res) // [8, 64]
 ```
 
+## Importing
+
+ #### Nodejs
+```js
+require('filter-map')
+```
+
+#### Webpack
+```js
+import 'filter-map'
+```
+
 ## Api
 
-Upon **require**ing/**import**ing the module Following functions are added to the array prototype
+Upon **require**ing/**import**ing the package following functions are added to the array prototype
 
 
 **filterMap(filterFn, mapFn)**  
 **mapFilter(mapFn, filterFn)**
+
+These are now available on instances of arrays i.e. all arrays from there on.
