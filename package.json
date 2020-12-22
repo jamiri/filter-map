@@ -1,0 +1,17 @@
+{
+  "name": "filter-map",
+  "version": "1.0.0",
+  "description": "Array utility to help writing filter/map separately without struggling with reduce",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "map",
+    "filter",
+    "array",
+    "utility"
+  ],
+  "author": "Javad M. Amiri",
+  "license": "MIT"
+}
