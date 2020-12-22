@@ -1,1 +1,0 @@
-(()=>{"use strict";Array.prototype.filterMap=Array.prototype.filterMap||function(r,t){return function(r,t,e){return r.reduce(((r,n)=>(t(n)&&r.push(e(n)),r)),[])}(this,r,t)},Array.prototype.mapFilter=Array.prototype.mapFilter||function(r,t){return function(r,t,e){return r.reduce(((r,n)=>{const p=t(n);return e(p)&&r.push(p),r}),[])}(this,r,t)}})();
