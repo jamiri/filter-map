@@ -28,11 +28,13 @@ yarn add @jamiri/filter-map
  #### Nodejs
 ```js
 require('filter-map')
+console.log([1, 2, 3].filterMap(x => x > 1, x => x * 3))
 ```
 
 #### Webpack
 ```js
 import 'filter-map'
+console.log([1, 2, 3].filterMap(x => x > 1, x => x * 3))
 ```
 
 ## Api
