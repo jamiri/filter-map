@@ -13,6 +13,16 @@ const res = [1, 2, 3, 4, 5].filterMap(it => it % 2 === 0, it => it ** 3) // O(n)
 console.log(res) // [8, 64]
 ```
 
+## Installing
+
+```
+npm i -S @jamiri/filter-map
+```
+or 
+```
+yarn add @jamiri/filter-map
+```
+
 ## Importing
 
  #### Nodejs
