@@ -4,12 +4,12 @@ Array utility to help writing filter/map separately without struggling with redu
 ## Description
 Have you ever experienced writing filtering and mapping over an array at the same time? will you go for this way:
 ```js
-const res = [1, 2, 3, 4, 5].filter(it => it % 2 === 0).map(it => it ** 3) // O(n^2)
+const res = [1, 2, 3, 4, 5].filter(it => it % 2 === 0).map(it => it ** 3) // Two iterations
 console.log(res) // [8, 64]
 ```
 Then I guess you have a colleague that adds a review comment to use Array's reduce to perform less iterations. Why bother writing it with reduce when you can do:
 ```js
-const res = [1, 2, 3, 4, 5].filterMap(it => it % 2 === 0, it => it ** 3) // O(n)
+const res = [1, 2, 3, 4, 5].filterMap(it => it % 2 === 0, it => it ** 3) // One iteration
 console.log(res) // [8, 64]
 ```
 
