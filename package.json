@@ -1,6 +1,6 @@
 {
   "name": "@jamiri/filter-map",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Array utility to help writing filter/map separately without struggling with reduce",
   "main": "dist/filter-map.js",
   "scripts": {
